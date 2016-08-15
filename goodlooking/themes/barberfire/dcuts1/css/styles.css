@@ -1,0 +1,114 @@
+html,
+body {
+    font-family: Verdana, Arial, Tahoma, Lucida, "Courier New", sans-serif;
+  background-image: url("/images/bkg.jpg");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+html p, h1, h2 ,h3 {
+    color: #ffcc00
+}
+
+#welcome {
+    color: #ffcc00;
+    background-color: #000000;
+    opacity: 0.8;
+    border-width: thick;
+    font-family: Verdana, Arial, Tahoma, Lucida, "Courier New", sans-serif;
+    border-style: solid;
+    border-color: #ffcc00;
+}
+
+
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -30px;
+  /* Pad bottom by footer height */
+  padding: 0 0 30px;
+}
+
+form .zip-wrap {
+  display: block !important;
+}
+
+
+
+#mSearch {
+  background-image: url("/images/BarberStripes.jpg");
+  opacity: 0.8;
+  border-width: thick;
+  font-family: Verdana, Arial, Tahoma, Lucida, "Courier New", sans-serif;
+  border-style: solid;
+  border-color: #ffcc00;
+}
+
+#mSearchContent h2 {
+    color: #ffcc00
+}
+#mSearchContent h1 {
+    color: #ffcc00
+}
+#mSearchContent label {
+    color: #ffcc00
+}
+
+#mSearchContent p {
+    color: #ffcc00
+}
+
+
+#mSearch p{
+    color: #ffcc00
+}
+
+#mSearch.btn {
+    color: #ffcc00
+}
+
+
+
+#wSearch {
+  background-image: url("/images/Beauty-3.jpg");
+  border-width: thick;
+  font-family: Verdana, Arial, Tahoma, Lucida, "Courier New", sans-serif;
+  opacity: 0.8;
+  border-style: solid;
+  border-color: #ff66cc;
+}
+
+#wSearchContent h2 {
+    color: #009933
+}
+#wSearchContent h1 {
+    color: #009933
+
+}
+
+#wSearchContent label {
+    color: #009933
+}
+
+
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 30px;
+  background-color: #FFCC00;
+  opacity: 0.4;
+}
+
+#footer p {
+  line-height: 30px;
+  margin-bottom: 0px;
+  color: #000000
+}
+
